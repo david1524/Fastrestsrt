@@ -1,0 +1,15 @@
+name: FastRestart
+version: 1.0
+main: com.example.fastrestart.FastRestart
+api-version: '1.21'
+commands:
+  fastrestart:
+    description: Triggers a fast server restart countdown
+    usage: /fastrestart [seconds]
+    aliases: [fr, frestart]
+    permission: fastrestart.use
+permissions:
+  fastrestart.use:
+    description: Allows triggering a fast restart
+    default: op
+    
